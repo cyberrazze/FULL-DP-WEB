@@ -1,41 +1,45 @@
 {
-  "name": "wa-fullscreen-dp-v1",
-  "version": "1.0.1",
-  "description": "A lightweight Node.js service that lets users set full-screen WhatsApp profile pictures without cropping. Upload an image, scan the QR, and your DP updates automatically using Baileys.",
+  "name": "full-dp-web",
+  "version": "1.0.2",
+  "description": "Set full-screen WhatsApp profile pictures instantly. Upload an image, scan the QR, and update your DP using Baileys.",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js",
-    "test": "echo \"No tests available\" && exit 0"
+    "test": "echo \"No tests configured\" && exit 0"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Me-amruth/fullscreendp-wa.git"
+    "url": "https://github.com/cyberrazze/FULL-DP-WEB.git"
   },
   "author": "CYBER DEXTER",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Me-amruth/fullscreendp-wa/issues"
+    "url": "https://github.com/cyberrazze/FULL-DP-WEB/issues"
   },
-  "homepage": "https://github.com/Me-amruth/fullscreendp-wa#readme",
+  "homepage": "https://github.com/cyberrazze/FULL-DP-WEB#readme",
   "keywords": [
     "whatsapp",
     "baileys",
-    "fullscreen",
     "dp",
     "profile-picture",
-    "image-processing",
-    "express"
+    "fullscreen",
+    "jimp",
+    "express",
+    "upload"
   ],
   "dependencies": {
     "@hapi/boom": "^10.0.1",
-    "baileys": "^6.7.18",
+    "baileys": "^6.7.21",
     "express": "^5.1.0",
-    "jimp": "^0.22.10",
+    "jimp": "1.6.0",
     "multer": "^2.0.2",
     "path": "^0.12.7"
   },
   "devDependencies": {
     "nodemon": "^3.1.0"
+  },
+  "engines": {
+    "node": ">=20.0.0"
   }
 }
